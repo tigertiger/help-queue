@@ -5,10 +5,12 @@ import helpCatImage from "./../img/help-cat.jpg";
 function Header(){
   return (
     <React.Fragment>
-    <img src={helpCatImage} alt="a cat who needs help" height="500px" />
+    <div id="catPic">
+      <img src={helpCatImage} alt="a cat who needs help" height="500px" />
+    </div>
     {/* <img src={skullImage} alt="a skull who needs help" height="500px" /> */}
-    <div className="headContainer">
-      <h1>Help Queue</h1>
+    <div className="container">
+      <h1>queue</h1>
     </div>
     </React.Fragment>
   );
